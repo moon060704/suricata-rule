@@ -15,7 +15,7 @@ alert tls any any -> any 443 (msg:"HTTPS amazon.com sni"; tls.sni; content:"amaz
 alert tls any any -> any 443 (msg:"HTTPS apple.com sni"; tls.sni; content:"apple.com"; nocase; sid:10014; rev:1;)
 alert tls any any -> any 443 (msg:"HTTPS wikipedia.org sni"; tls.sni; content:"wikipedia.org"; nocase; sid:10015; rev:1;)
 alert tls any any -> any 443 (msg:"HTTPS pinterest.com sni"; tls.sni; content:"pinterest.com"; nocase; sid:10016; rev:1;)
-alert tls any any -> any 443 (msg:"HTTPS x.com sni"; tls.sni; content:"x.com"; nocase; sid:10017; rev:1;)
+alert tls any any -> any 443 (msg:"HTTPS yahoo.com sni"; tls.sni; content:"yahoo.com"; nocase; sid:10017; rev:1;)
 alert tls any any -> any 443 (msg:"HTTPS tiktok.com sni"; tls.sni; content:"tiktok.com"; nocase; sid:10018; rev:1;)
 alert tls any any -> any 443 (msg:"HTTPS discord.com sni"; tls.sni; content:"discord.com"; nocase; sid:10019; rev:1;)
 alert tls any any -> any 443 (msg:"HTTPS zoom.us sni"; tls.sni; content:"zoom.us"; nocase; sid:10020; rev:1;)
